@@ -1,0 +1,51 @@
+{
+  "features": [
+    "slope",
+    "curah_hujan",
+    "tanah_skor",
+    "lahan_skor",
+    "kemiringan_grid_code",
+    "jarak_drainase_m",
+    "flood_hist_biner",
+    "longitude",
+    "latitude"
+  ],
+  "label_order": {
+    "sangat rendah": 0,
+    "rendah": 1,
+    "sedang": 2,
+    "tinggi": 3
+  },
+  "inv_label": {
+    "0": "sangat rendah",
+    "1": "rendah",
+    "2": "sedang",
+    "3": "tinggi"
+  },
+  "tanah_map": {
+    "Dystrudepts": 1,
+    "Hapludults": 2,
+    "Endoaquepts": 3
+  },
+  "lahan_risiko": {
+    "Hutan": 1,
+    "Semak Belukar": 2,
+    "Lahan Pertanian": 3,
+    "Hutan Mangrove": 2,
+    "Lahan Terbuka": 4,
+    "Tubuh Air": 5,
+    "Kawasan Terbangun": 5
+  },
+  "ch_map": {
+    "1731 - 1821": 1776,
+    "1821 - 1884": 1852,
+    "1884 - 1953": 1918,
+    "1953 - 2030": 1991,
+    "2030 - 2118": 2074
+  },
+  "best_model": "Random Forest",
+  "accuracy_rf": 0.9923664122137404,
+  "accuracy_svm": 0.9618320610687023,
+  "f1_rf": 0.9922893052664045,
+  "f1_svm": 0.9653438034262274
+}

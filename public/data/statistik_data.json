@@ -1,0 +1,29 @@
+{
+  "total_titik": 651,
+  "distribusi_risiko": {
+    "tinggi": 355,
+    "sangat rendah": 246,
+    "sedang": 26,
+    "rendah": 24
+  },
+  "missing_values": 0,
+  "kolom": [
+    "lon",
+    "lat",
+    "slope",
+    "geologi",
+    "riwayat_banjir",
+    "risiko_banjir",
+    "skor_total",
+    "curah_hujan",
+    "kode_tanah",
+    "jenis_tanah",
+    "kode_lahan",
+    "penggunaan_lahan",
+    "panjang_drainase",
+    "skor_drainase",
+    "kode_lereng",
+    "kelas_lereng",
+    "label_encoded"
+  ]
+}
